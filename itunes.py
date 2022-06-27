@@ -17,3 +17,6 @@ print(json.dumps(data, indent=4, ensure_ascii=False).encode().decode())
 
 # 件数の表示
 print('検索結果：' + str(data['resultCount']) + ' 件')
+
+print(data['trdulyd'][0]['collectionName'])
+print(data['results'][0]['trackName'])
